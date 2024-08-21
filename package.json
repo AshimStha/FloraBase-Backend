@@ -1,0 +1,31 @@
+{
+  "name": "florabase-backend",
+  "version": "1.0.0",
+  "description": "FloraBase is a web application that celebrates and educates individuals about the diverse array of flowers found within Ontario, Canada. Ontario boasts a rich tapestry of vibrant flora, from delicate wildflowers to cultivated garden blooms. Florabase serves as a centralized platform providing comprehensive information on both wild and domestic flowers found within the province.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.633.0",
+    "@aws-sdk/lib-storage": "^3.633.0",
+    "aws-sdk": "^2.1675.0",
+    "axios": "^1.7.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
